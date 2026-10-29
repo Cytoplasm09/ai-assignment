@@ -1,0 +1,13 @@
+# Analyzing Credit Card Fraud with AI
+
+## EDA Summary
+
+This exploratory data analysis looks at a 1000 transactions which have been labeled as fraud or not fraud. We are trying to look at the variables of each transaction to find out of there is enough information and patterns between variables to accurately predict future transactions as fraud or not.
+
+## Reflection of AI Assistance
+
+The biggest benefit of using AI to help with this EDA is the time benefit. It was able to generate code much quicker than I could write it, and it even did extra work to double check the data and its methods than I would normally do. It was also very helpful in editing the python notebook as a whole. For example, I could make all the graphs look the same very quickly or change the axis labels on each of them with a sentence rather than having to go through each one and typing out the python code. The AI also sifted through the raw data before even starting to generate code and figured out key columns or important relationships before even putting the data in a DataFrame. This helped it to get a better grasp of the data and how to analyze it best. I would not be able to make sense of the data unless it was in a nicely formatted table.
+
+I do see a lot of potential dangers for someone who doesn't know Data Science using AI to generate such report. If you do not know what the AI is doing, then you can't verify if its correct and you end up fully trusting it and believing everything it tells you. You can't check its work but just have to assume that is correct. Because I knew what all the code was doing and was supposed to be doing, I could look over it and know that such code should produce such a result. All AI did for me was speed up the process, but I was able to follow along with it and still know what is going on. For someone who doesn't, there is no way for them to catch mistakes or especially with conclusions and recommendations, you can't know what those recommendations and findings are based on because you don't know what the AI did to get there and what relationships it looked at and how accurate those relationships are. AI tends to always agree with you, so if you word something in a way that is leaning toward one conclusion, the AI will tend to try and manipulate the data in your favor so you get the wanted result.
+
+I verified AI output by comparing the graphs it generated with the ones provided in the notebook. It added a bunch of fancy formatting that I did not want and had to tell it to get rid off. I also had to check how it dealt with missing values as it was not the way that I wanted it to. I knew to verify this as there is many different ways to deal with missing values and I didn't specify which way to deal with them
